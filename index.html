@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Movie Seat Booking</title>
+    </head>
+    <body>
+        <div class="first">
+        <div class="movie-container">
+            <label>Pick a movie:</label>
+            <select id="movie">
+                <option value="100">Sarpata Parambarai (100RS)</option>
+                <option value="120">Shershah (120RS)</option>
+                <option value="200">Dikkilona (200RS)</option>
+                <option value="50">Tughlaq Durbar (50RS)</option>
+            </select>
+        </div>
+        <ul class="showcase">
+            <li>
+                <div class="seat" id="one"></div>
+                <small>N/A</small>
+            </li>
+            <li>
+                <div class="seat selected" id="two"></div>
+                <small>Selected</small>
+            </li>
+            <li>
+                <div class="seat occupied" id="three"></div>
+                <small>Occupied</small>
+            </li>
+        </ul>
+        <div class="container">
+            <div class="screen"></div>
+
+            <div class="row">
+                <div class="seat"><i class="fas fa-chair"></i></div>
+                <div class="seat"><i class="fas fa-chair"></i></div>
+                <div class="seat"><i class="fas fa-chair"></i></div>
+                <div class="seat"><i class="fas fa-chair"></i></div>
+                <div class="seat"><i class="fas fa-chair"></i></div>
+                <div class="seat"><i class="fas fa-chair"></i></div>
+                <div class="seat"><i class="fas fa-chair"></i></div>
+                <div class="seat"><i class="fas fa-chair"></i></div>
+             </div>
+
+             <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+             </div>
+
+             <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+             </div>
+
+             <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+             </div>
+
+             <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+             </div>
+
+             <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+             </div>
+        </div>
+        <p class="text">You have selected <span id="count">0</span> seats for a price of $<span id="total">0 </span></p>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
